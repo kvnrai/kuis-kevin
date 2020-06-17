@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/answer4"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="656dp" />
+
+    <Button
+        android:id="@+id/answer3"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="596dp" />
+
+    <Button
+        android:id="@+id/answer2"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="535dp" />
+
+    <Button
+        android:id="@+id/answer1"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="476dp" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="396dp"
+        android:layout_height="46dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="90px"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="13dp" />
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="399dp"
+        android:layout_height="403dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="80px"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="67dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
